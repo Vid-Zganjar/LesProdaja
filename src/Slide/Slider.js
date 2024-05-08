@@ -18,23 +18,26 @@ function UncontrolledExample() {
       <Carousel.Item>
         <img src={slika1} style={SlikaSize} alt="les" fluid />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h1 style={{marginTop: -330}}  className="display-1">LESOPRODAJA BOBI</h1>
+          <h3>Puklič pa prpelm</h3>
+          <p>Od ljudi za ljudi</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src={slika2} style={SlikaSize}  alt="les" fluid />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h1>PUCEN PA DOBR, KUA ČŠ BULŠGA</h1>
+          <h3>Če ne pokličš, ti bo žou</h3>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       <img src={slika3} style={SlikaSize}  alt="les" fluid />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h1 style={{marginTop: -230}}>Naravna Moč, Oblikovana v Lesu.</h1>
+          <h3>Ti sam kup, al se splača</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Popolna ročna obdelava
           </p>
         </Carousel.Caption>
       </Carousel.Item>

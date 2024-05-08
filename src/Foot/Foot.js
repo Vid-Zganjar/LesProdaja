@@ -8,87 +8,74 @@ const Foot = () => (
   <footer className="text-white text-center text-lg-start bg-dark">
     <div className="container p-4">
       <div className="row">
-        <div className="row mt-4">
-          <h5 className="text-uppercase mb-4">Footer Content</h5>
-          <p>
-            Here you can use rows and columns to organize your footer content.
-          </p>
-        </div>
-
+        
         <hr className="clearfix w-100 d-md-none pb-0" />
+<div style={{marginBottom: -50, paddingTop:20}}>
+        <div className="d-flex flex-column">
+          <div className="mt-4">
+              <i style={{padding:10}}><SocialIcon  network="tiktok" url="" /></i>
 
-        <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
-          <div class="mt-4">
-              <i style={{padding:10}}><SocialIcon  network="tiktok" url="www.vimeo.com" /></i>
+              <i style={{padding:10}}><SocialIcon network="facebook" url="" /></i>
 
-              <i style={{padding:10}}><SocialIcon network="facebook" url="www.vimeo.com" /></i>
+              <i style={{padding:10}}><SocialIcon network="instagram" url="" /></i>
 
-              <i style={{padding:10}}><SocialIcon network="instagram" url="www.vimeo.com" /></i>
-
-            <i style={{padding:10}}><SocialIcon network="snapchat" url="www.vimeo.com" /></i>
+            <i style={{padding:10}}><SocialIcon network="snapchat" url="" /></i>
           </div>
         </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          
 
-        <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase mb-4 pb-1">Search something</h5>
-
-          <div class="form-outline form-white mb-4">
-            <input
-              type="text"
-              id="formControlLg"
-              class="form-control form-control-lg" />
-            <label class="form-label" for="formControlLg">
-              Search
-            </label>
-          </div>
-
-          <ul class="fa-ul" >
-          <li class="mb-3">
-            <span class="fa-li">
-              <i class="fas fa-home"></i>
+          <ul className="fa-ul" >
+          <li className="mb-3">
+            <span className="fa-li">
+              <i className="fas fa-home"></i>
             </span>
-            <span class="ms-2">Warsaw, 00-967, Poland</span>
+            <span className="ms-2">Šentjanž 88, 8297 Šentjanž</span>
           </li>
-          <li class="mb-3">
-            <span class="fa-li">
-              <i class="fas fa-envelope"></i>
+          <li className="mb-3">
+            <span className="fa-li">
+              <i className="fas fa-envelope"></i>
             </span>
-            <span class="ms-2">contact@example.com</span>
+            <span className="ms-2">kr.pis@misl-si.com</span>
           </li>
-          <li class="mb-3">
-            <span class="fa-li">
-              <i class="fas fa-phone"></i>
+          <li className="mb-3">
+            <span className="fa-li">
+              <i className="fas fa-phone"></i>
             </span>
-            <span class="ms-2">+ 48 234 567 88</span>
+            <span className="ms-2">+386 040 055 005</span>
           </li>
         </ul>
       </div>
+<div className="d-flex justify-content-end" style={{marginTop: -170}}>
+      <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 className="text-uppercase mb-4">Ure k delam</h5>
 
-      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-4">Opening hours</h5>
-
-        <table class="table text-center text-white">
-          <tbody class="fw-normal">
+        <table className="table text-center table-dark">
+          <tbody className="fw-normal">
             <tr>
-              <td>Mon - Thu:</td>
-              <td>8am - 9pm</td>
+              <td>Pon - Čet:</td>
+              <td>8:00 - 16:00</td>
             </tr>
             <tr>
-              <td>Fri - Sat:</td>
-              <td>8am - 1am</td>
+              <td>Pet - Sob:</td>
+              <td>8:00 - 12:00</td>
             </tr>
             <tr>
-              <td>Sunday:</td>
-              <td>9am - 10pm</td>
+              <td>Nedela:</td>
+              <td>FREJ!</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
-  </div><div class="text-center p-3">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">
-        MDBootstrap.com
+  </div>
+  </div>
+  
+  <div className="text-center p-3">
+      © 2020 Copyright: 
+      <a className="text-white" href="https://zganjar.wordpress.com/">
+        Balin Majster d.o.o.
       </a>
     </div>
   </footer>

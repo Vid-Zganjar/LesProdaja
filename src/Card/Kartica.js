@@ -6,17 +6,18 @@ import Card from 'react-bootstrap/Card';
 
 function BasicExample(props){
 const SlikaSrc = props.SlikaSrc
+const Naslov = props.Naslov
+const Text = props.Text
 
   return (
     <Card style={{ width: '18rem'  }}>
       <Card.Img variant="top" src={SlikaSrc} width={450} height={250}/>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>{Naslov}</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+         {Text}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Poglej</Button>
       </Card.Body>
     </Card>
     
