@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Kazalo.js";
 import Home from "./Home.js";
 import Foot from "./Foot/Foot.js";
 
-import { Routes, Route, Switch } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import About from './About/About.js';
 import Trgovina from './Shop/Artikelj1.js';
 

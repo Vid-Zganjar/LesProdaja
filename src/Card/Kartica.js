@@ -10,7 +10,8 @@ const Naslov = props.Naslov
 const Text = props.Text
 
   return (
-    <Card style={{ width: '18rem'  }}>
+    
+    <Card style={{ width: '18rem', marginTop:20 }}>
       <Card.Img variant="top" src={SlikaSrc} width={450} height={250}/>
       <Card.Body>
         <Card.Title>{Naslov}</Card.Title>
